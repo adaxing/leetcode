@@ -11,6 +11,8 @@ def isPalindrome(x):
             return True
         else:
             return False
+        # x = str(x)
+        # return x == x[::-1]
 
 checker = input("Input: ")
 print(isPalindrome(checker))
